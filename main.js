@@ -1,6 +1,6 @@
 let target = document.querySelector('#dynamic');
 let stringArr = ['Learn to HTML', 'Learn to CSS', 
-'Learn to Javascriot', 'Learn to Python'];
+'Learn to Javascript', 'Learn to Python'];
 
 //문자열 인덱스 랜덤하게 뽑고, 소수점 이하 버리기
 let selectString = stringArr[Math.floor(Math.random(stringArr) * stringArr.length)];
@@ -11,7 +11,7 @@ console.log(selectStringArr);
 
 function randomString() {
     let stringArr = ['Learn to HTML', 'Learn to CSS', 
-                    'Learn to Javascriot', 'Learn to Python'];
+                    'Learn to Javascript', 'Learn to Python'];
     let selectString = stringArr[Math.floor(Math.random(stringArr) * stringArr.length)];
     let selectStringArr = selectString.split('');
 
